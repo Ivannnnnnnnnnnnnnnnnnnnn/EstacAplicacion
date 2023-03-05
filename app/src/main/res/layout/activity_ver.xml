@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/segundofondo"
+    tools:context=".Ver">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="412dp"
+        android:layout_height="38dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:rotationX="2"
+            android:text="Datos Del Usuario"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="413dp"
+        android:layout_height="282dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Email"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="textEmailAddress"
+                android:labelFor="@id/textView8"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Nombre"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtNombre"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:digits="abcdefghijklmnopqrstuvwxyzñABDEFGHIJKLMNOPQRSTUVWXYZÑ "
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="textPersonName"
+                android:labelFor="@id/textView15"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Apellido"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtApellido"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:digits="abcdefghijklmnopqrstuvwxyzñABDEFGHIJKLMNOPQRSTUVWXYZÑ "
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="textPersonName"
+                android:labelFor="@id/textView16"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#000000"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="DNI"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtDni"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:hint="Sin puntos"
+                android:inputType="number"
+                android:labelFor="@id/textView17"
+                android:maxLength="8"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#3E3E3E"
+                app:counterEnabled="true"
+
+
+                app:counterMaxLength="8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Domicilio"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtDomicilio"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="textPersonName"
+                android:labelFor="@id/textView12"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Telefono"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtTelefono"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="number"
+                android:labelFor="@id/textView13"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#000000" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:drawableLeft="@drawable/salvar"
+            android:fontFamily="serif"
+            android:text="Guardar"
+            android:textSize="11sp" />
+
+        <EditText
+            android:id="@+id/di"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:ems="10"
+
+            android:enabled="false"
+            android:focusable="false"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/editar"
+            android:fontFamily="serif"
+            android:text="Modificar"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:fontFamily="serif"
+        android:text="Datos Del Vehiculo"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout3" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="410dp"
+        android:layout_height="142dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Patente de Vehiculo"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtPatente"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:digits="ABCDEFGHIJKLMNOPÑQRSTUVWXYZ1234567890"
+                android:ems="7"
+                android:fontFamily="serif"
+                android:inputType="textCapCharacters"
+                android:labelFor="@id/textView14"
+                android:maxLength="7"
+                android:textColor="@color/white"
+
+                android:textColorHint="#3E3E3E"
+                app:counterEnabled="true"
+                app:counterMaxLength="7" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Modelo"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtModelo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:hint="Año"
+                android:inputType="number"
+                android:labelFor="@id/textView18"
+                android:maxLength="4"
+                android:textColorHint="#4F4F4F"
+                app:counterEnabled="true"
+                app:counterMaxLength="4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Marca"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtMarca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="textPersonName"
+                android:labelFor="@id/textView19" />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="402dp"
+        android:layout_height="98dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/id_lista_contactos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

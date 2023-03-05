@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "21070814906",
+    "project_id": "estacionamiento-26e0a",
+    "storage_bucket": "estacionamiento-26e0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21070814906:android:f723f96de39c6498d2ec83",
+        "android_client_info": {
+          "package_name": "com.android.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21070814906-l8hffiearo4mbst1ncbcimigr3f8enrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhqaweg3i8KgErYQNgV7WUC-H0GRut-AI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21070814906-l8hffiearo4mbst1ncbcimigr3f8enrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

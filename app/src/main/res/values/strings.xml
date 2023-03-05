@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Estacionamiento</string>
+
+    <string name="btn_iniciar">Iniciar Sesión</string>
+    <string name="btn_registrar">Crear cuenta nueva</string>
+
+
+    <string name="btn_iniciarr">Ingresar</string>
+    <string name="btn_registrarse">Registrarse</string>
+    <string name="btn_google"></string>
+    <string name="btn_cerrar">Cerrasr Sesion</string>
+
+
+    <string name="title_activity_menu">Menu</string>
+
+    <string name="btn_actuales">Actuales</string>
+    <string name="btn_finalizadas">Finalizadas</string>
+
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+
+
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Reservas</string>
+    <string name="title_notifications">Perfil</string>
+    <string name="title_activity_main2">main2</string>
+
+
+    <string-array name="semana">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sabado</item>
+        <item>Domingo</item>
+    </string-array>
+
+    <string-array name="inicia">
+
+
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>00:00</item>
+
+
+    </string-array>
+
+    <string-array name="finaliza">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>00:00</item>
+    </string-array>
+    <string name="title_activity_informacion">informacion</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>
